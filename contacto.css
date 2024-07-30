@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+    
+body {
+    width: 100%;
+    min-height: 85vh;
+    font-family: Arial, sans-serif;
+    background-image: url(img/cañon_shujto.webp);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    position: relative;
+    margin: auto;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #463112;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+a{
+    margin: auto;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 46%;
+}
+
+a:hover{
+    color: rgb(68, 12, 12);
+}
